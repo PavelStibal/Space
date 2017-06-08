@@ -1,0 +1,46 @@
+body {
+    background: ghostwhite;
+}
+
+/* Game */
+canvas {
+    position: relative;
+    border: 1px solid black;
+}
+
+/* Navbar */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: darkblue;
+}
+
+@media screen and (max-width: 600px){
+    nav li {float: none;}
+}
+
+#game {
+    position: relative;
+    margin: auto;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    width: 700px;
+    padding: 0;
+}
