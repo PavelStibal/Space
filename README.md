@@ -2,6 +2,10 @@
 Semestral project for A0A33KAJ subject taught by Seznam.cz at CTU
   * [Evaluation criteria](https://docs.google.com/spreadsheets/d/18rSiofsqOHGTXj_Zbs1s-rtB2URXG4iUmxn_5JtwWDY/edit#gid=0)
 
+## Music in game
+I would like to thank doc. Ing. Adam Sporka, Ph.D. for the background sound while playing. Other sounds are freely 
+available
+
 ## Project goal
 The goal of this project is to create a game that is similar to an old game that is named Raport 
 (see link : [Youtube gameplay](https://www.youtube.com/watch?v=pYa2g9_5Ss4))
