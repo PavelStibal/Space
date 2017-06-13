@@ -4,7 +4,7 @@ body {
 
 /* Game */
 canvas {
-    position: relative;
+    position: absolute;
     border: 1px solid black;
 }
 
@@ -40,7 +40,89 @@ nav li a:hover {
     position: relative;
     margin: auto;
     margin-top: 2px;
-    margin-bottom: 5px;
+    margin-bottom: 2px;
     width: 700px;
-    padding: 0;
+}
+
+#scoreTable {
+    display: none;
+    position: absolute;
+    top: 520px;
+    left: 15px;
+    color: blue;
+    font-size: 1.25em;
+    font-family: 'LuckiestGuy';
+    cursor: default;
+}
+
+#healthBar {
+    display: none;
+    position: absolute;
+    top: 520px;
+    left: 500px;
+    color: blue;
+    font-size: 1.25em;
+    font-family: 'LuckiestGuy';
+    cursor: default;
+}
+
+.information {
+    position: absolute;
+    left: 290px;
+    color: blue;
+    font-size: 1.5em;
+    font-family: 'LuckiestGuy';
+    cursor: default;
+    animation-name: scrollingText;
+    animation-duration: 20s;
+    animation-fill-mode: forwards;
+    display: none;
+}
+
+.playAgain {
+    position: absolute;
+    left: 300px;
+    top: 225px;
+    color: blue;
+    font-size: 1.5em;
+    opacity: 0;
+    font-family: 'LuckiestGuy';
+    cursor: pointer;
+    display: none;
+    animation-name: moveClickText;
+    animation-duration: 5s;
+    animation-delay: 15s;
+    animation-fill-mode: forwards;
+}
+
+.playAgain span:hover {
+    color: dodgerblue;
+}
+
+#nextLevel {
+    position: absolute;
+    top: 215px;
+    left: 300px;
+    color: blue;
+    font-size: 1.5em;
+    font-family: 'LuckiestGuy';
+    cursor: default;
+    display: none;
+}
+
+@keyframes scrollingText {
+    0%  {top: -50px; opacity: 0;}
+    30% {top: 200px; opacity: 1;}
+    70% {top: 200px; opacity: 1;}
+    100% {top: 450px; opacity: 0;}
+}
+
+@keyframes moveClickText {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@font-face {
+    font-family: 'LuckiestGuy';
+    src: url('../asset/font/LuckiestGuy.ttf');
 }
