@@ -12,12 +12,14 @@ How to play the game and what to watch out for here: [How to play](https://pavel
 ## Goal and description game
 The goal of the game is to kill "Boss" to win. Before you reach the boss, other enemy ships will be attacked by you to 
 destroy you by shooting or collisions, which will completely destroy them.
+
 You can destroy enemy ships by shooting or collisions, which will give you some health.
+
 If you pick up power up, using powerups you can upgrade your weapon or add some health if you are no longer full health
 
 ## Structure
 The structure of the folder is the following:
-- `root` - Static html files
-    - `js/` - JS files for the game (the core of the EC6)
-    - `style/` - My CSS style
-    - `resource/` - Here you can find images and sounds
+- `root` - Static html files for semestral project
+    - `js/` - JS files for semestral project (core of the system in ES6)
+    - `style/` - My CSS style for semestral project
+    - `resource/` - Here you can find images and sounds for semestral project
