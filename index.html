@@ -2,15 +2,26 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    	<title>Space</title>
-    	<link rel="stylesheet" href="style/main.css" type="text/css">
+
+        <title>Space</title>
+
+        <link rel="stylesheet" href="style/main.css" type="text/css">
 
         <script src="js/image_storage.js"></script>
+        <script src="js/sound_storage.js"></script>
         <script src="js/drawable.js"></script>
-        <script src="js/game.js"></script>
-        <script src="js/inicialization_game.js"></script>
+        <script src="js/powerup.js"></script>
+        <script src="js/objects_pools.js"></script>
+        <script src="js/shot_drawable.js"></script>
+        <script src="js/explosion_effect.js"></script>
         <script src="js/background.js"></script>
+        <script src="js/player.js"></script>
+        <script src="js/enemy.js"></script>
+        <script src="js/powerup_drawable.js"></script>
+        <script src="js/levels.js"></script>
+        <script src="js/main.js"></script>
     </head>
+
     <body>
         <nav>
             <ul>
@@ -21,7 +32,23 @@
 
         <div id="game">
             <canvas id="background" width="700" height="550"></canvas>
-            <div id="loadingBoard"><span id="loading"></span></div>
+            <canvas id="main" width="700" height="550"></canvas>
+            <canvas id="ship" width="700" height="550"></canvas>
+
+            <div id="scoreTable">Score: <span id="score"></span></div>
+            <div id="healthBar">Health: <span id="health">♥ ♥ ♥ ♥ ♥</span></div>
+
+            <div class="information" id="informationTable">
+                <span id="informationText"></span></br>
+                Your score: <span id="endScore"></span></br>
+                High score: <span id="highScore"></span></br>
+            </div>
+            <div class="playAgain" id="playAgain">
+                <span id="playAgainText" onclick="game.restart()"></span>
+            </div>
+
+            <div id="nextLevel"></div>
         </div>
+
     </body>
 </html>
