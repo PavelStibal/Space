@@ -126,3 +126,15 @@ nav li a:hover {
     font-family: 'LuckiestGuy';
     src: url('../resources/font/LuckiestGuy.ttf');
 }
+
+/*How to play*/
+.howToPlay {
+    margin: auto;
+    width: 90%;
+}
+
+td {
+    padding: 0 3px 0 3px;
+    vertical-align: middle;
+    text-align: center;
+}
