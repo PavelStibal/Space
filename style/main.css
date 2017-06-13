@@ -38,9 +38,7 @@ nav li a:hover {
 
 #game {
     position: relative;
-    margin: auto;
-    margin-top: 2px;
-    margin-bottom: 2px;
+    margin: 2px auto;
     width: 700px;
 }
 
